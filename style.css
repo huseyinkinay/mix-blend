@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; /* taşma yapmaz*/
+    font-family: 'Poppins',sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none
+}
+
+.container{
+max-width: 1300px;
+margin: auto;
+padding-left: 50px;
+padding-right: 50px;
+}
+
+.header{
+width: 100%;
+height: 100vh;
+
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.navbar .logo img{
+    width :90px;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 25px;
+}
+
+nav li a{
+    color: brown;  
+    font-weight: 600;
+}
+
+nav{
+    margin-right: 35%;
+}
+
+.icon i {
+    font-size: 25px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.col-2{
+    flex-basis : 50%;
+}
+.container .box{
+    width: 410px;
+    height: 410px;
+    margin-top: -10px;
+    position: relative;
+
+}
+
+.container .box img{
+    width : 110%;
+    height: 100%;
+    object-fit :cover;
+    position: absolute;
+    top: 0;
+    left : 0;
+    mix-blend-mode: screen;
+}
+
+.container .box video{
+    position : absolute;
+    top:40px;
+    left:18px;
+    width : 105%;
+    height: 60%;
+    object-fit: cover;
+}
+
+
+.col-2 h1{
+    font-size: 3rem;
+    color: brown;
+      
+}
+
+.col-2 span{
+    font-size: 5rem;
+    margin-left: 100px;
+    line-height:70px;
+    margin: 20px 0;
+}
+
+.col-2 p{
+    margin: 15px 0;
+    font-weight: 400;
+}
+
+.btn{
+    display: inline-block;
+    color: wheat;
+    background-color:coral;
+    padding: 8px 30px;
+    border-radius: 25px;
+    margin-top: 5px;
+}
+
+.btn:hover{
+    background-color: crimson;
+}
